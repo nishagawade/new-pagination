@@ -27,6 +27,7 @@ const App = () => {
 
   return (
     <div className='container mt-3'>
+      <h1>Posts</h1>
       <ul className='list-group mb-4'>
         {
           currPost.map((post) => (
